@@ -350,7 +350,7 @@ a:hover {
 
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 220px;
+  max-width: 98%;
   margin: 1rem auto 1rem;
 }
 .owl-carousel .nav-button {
