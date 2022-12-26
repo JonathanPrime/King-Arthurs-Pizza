@@ -764,8 +764,8 @@ a:hover {
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(38rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -784,7 +784,7 @@ a:hover {
 }
 
 .blogs .box-container .box .image {
-  height: 50rem;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -1253,7 +1253,7 @@ input.whats-input[type=text]:focus {
   }
   
   .blogs .box-container .box .image {
-    height: 32rem;
+    height: 100%;
   }
   .blogs .box-container {
     display: -ms-grid;
